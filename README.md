@@ -1,39 +1,60 @@
-# 👋 Hi, I'm Swedha Maheswaran
+# 🛒 E-commerce MERN Stack App
 
-🌟 MERN Stack Developer with 3 years of experience  
-💡 Passionate about building full-stack applications  
-🚀 Currently exploring TypeScript, Next.js, and Docker  
-📫 Reach me: [LinkedIn](https://www.linkedin.com/in/swedha-maheswaran-mern-full-stack-developer-891409192/)
+An e-commerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It includes user authentication, product management, cart functionality, and an admin panel.
+
+---
+
+## 🚀 Features
+
+- 🔐 User Registration & Login (JWT Auth)
+- 📦 Product Listing, Search & Filtering
+- 🛒 Cart Management
+- 🧾 Order Placement
+- 🧑‍💼 Admin Panel for Product Management
+- 💳 (Optional) Payment Gateway Integration
+- 📱 Fully Responsive UI
 
 ---
 
 ## 🛠 Tech Stack
 
-- 💻 **Frontend:** React.js, Redux, Tailwind CSS  
-- 🔧 **Backend:** Node.js, Express.js  
-- 🛢️ **Database:** MongoDB, Mongoose  
-- ☁️ **Tools:** Git, Postman, Vercel, Docker, Firebase  
+| Layer      | Tech                        |
+|------------|-----------------------------|
+| Frontend   | React.js, Redux, Tailwind CSS |
+| Backend    | Node.js, Express.js          |
+| Database   | MongoDB, Mongoose            |
+| Auth       | JWT, bcrypt                  |
+| Hosting    | Vercel / Netlify / Render    |
 
 ---
 
-## 🧰 Featured Projects
+## 🖼️ Screenshots
 
-| Project | Description | Stack | Link |
-|--------|-------------|--------|------|
-| 🛒 **E-commerce App** | Full-stack app with login, cart, and admin panel | React, Node, MongoDB | [GitHub](#) |
-| 📅 **Booking App** | Role-based event management system | MERN + JWT | [GitHub](#) |
-| 🐶 **Pet Adoption Portal** | Browse & adopt pets online | React, MongoDB | [GitHub](#) |
+> _(Add screenshots here — homepage, product page, cart, admin panel)_  
+Example:
+![Homepage](./screenshots/home.png)
 
 ---
 
-## 📈 GitHub Stats
+## 🌐 Live Demo
 
-![Swedha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=swedha-maheswaran&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=swedha-maheswaran&layout=compact&theme=radical)
+🔗 [Live Demo](#)  
+📹 [Demo Video](#) *(optional)*
 
 ---
 
-## 🔗 Let's Connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/swedha-maheswaran-mern-full-stack-developer-891409192/)
-- 💻 Portfolio (coming soon)
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/SwedhaMahe/ecommerce.git
+cd ecommerce
+
+# Install frontend and backend dependencies
+cd client
+npm install
+cd ../server
+npm install
+
+# Run the app
+npm run dev  # or custom command
